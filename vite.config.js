@@ -8,8 +8,8 @@ export default defineConfig({
     federation({
       name: "host",             // Nombre de la host app
       remotes: {                    // Nombre de las remote apps que se van a usar dentro de la host app, se especifica la url del fichero generado por Module Federation
-        colorPicker: "https://67347cd554b786c4537cea71--glittery-squirrel-5ac4c7.netlify.app/assets/remoteEntry.js",
-        colorList: "https://673480b00b2d1cd7dbb529c9--playful-marshmallow-e94fda.netlify.app/assets/remoteEntry.js",
+        colorPicker: "https://67348ac72ebf9cd83a585dd3--incandescent-manatee-f7717e.netlify.app/assets/remoteEntry.js",
+        colorList: "https://67348ae4eb009ed80c480810--celebrated-jelly-ca5fbf.netlify.app/assets/remoteEntry.js",
       },
       shared: ["react"],            // Nombre de las dependencias compartidas
     }),
